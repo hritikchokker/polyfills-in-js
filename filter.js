@@ -22,6 +22,7 @@ const mapperFunc = (element => element.length > 5);
 // console.log(words.filter())
 console.log(filterArray(words, mapperFunc))
 
+
 const arrayPrime = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
 const primeFinder = function (el) {
     for (let i = 2; el > i; i++) {
